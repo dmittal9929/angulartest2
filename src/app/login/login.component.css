@@ -1,0 +1,39 @@
+h2{
+    position: relative;
+    text-align: center;
+    color: #005e99;
+}
+div{
+    margin-top: 80px;
+    margin-left: 450px;
+    align-self: center;
+    border: solid black;
+    height: 300px;
+    width: 300px;
+}
+
+input[type=text]
+{
+    width: 80%;
+    padding: 12px 20px;
+    
+    margin-left: 25px;
+    margin-top:10px;
+    box-sizing: border-box;
+}
+
+input[type=password]
+{
+    width: 80%;
+    padding: 12px 20px;
+    margin-left: 25px;
+    margin-top:10px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 45%;
+    padding: 12px 20px;
+    margin-left: 75px;
+    margin-top:10px;
+    box-sizing: border-box;
+}

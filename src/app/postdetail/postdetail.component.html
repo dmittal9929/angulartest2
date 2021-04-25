@@ -1,0 +1,18 @@
+<p>Post Details {{id}}</p>
+
+<div *ngIf="emp">
+<table >
+    <tr >
+        <td>
+            {{emp.did}}
+        </td>
+        <td>
+            {{emp.dname}}
+        </td>
+        <td>
+            {{emp.lid}}
+        </td>
+    </tr>
+</table>
+<button (click)="back()">back</button>
+</div>

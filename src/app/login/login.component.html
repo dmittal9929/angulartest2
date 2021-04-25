@@ -1,0 +1,9 @@
+
+<div>
+    <h2>Please Enter login Details</h2>
+    <form #loginform="ngForm" (ngSubmit)="onSubmit(loginform.value)">
+    <input type ='text' name='user' placeholder="UserId" ngModel required/><br>
+    <input type='password' name='pass' placeholder="Password" ngModel required/>
+    <br><input type="submit"/>
+</form> 
+</div> 
